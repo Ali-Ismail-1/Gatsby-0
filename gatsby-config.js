@@ -1,9 +1,11 @@
 module.exports = {
     siteMetadata: {
-      title: `My Gatsby Site`,
+      title: `Blog Course`,
+      description: "My Personal Blog",
+      twitter: "MyHandle",
         siteUrl: `https://www.yourdomain.tld`,
     },
     plugins: [
-
+      'gatsby-plugin-react-helmet'
     ]
 }
