@@ -1,9 +1,13 @@
 import * as React from "react"
+import Layout from "../components/layout"
 
 // markup
 const NotFoundPage = () => {
   return (
-    <div>The Big Empty. This Page does not exist.</div>
+    
+    <Layout>
+      <div>The Big Empty. This Page does not exist.</div>
+    </Layout>
   )
 }
 
